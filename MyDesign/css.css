@@ -1,0 +1,96 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+
+.wrapper{
+    padding: 20px 40px;
+    margin: 0 auto;
+}
+
+.header ul li::after{
+    content: ' >';
+    font-weight: 900;
+}
+.header ul li:last-child::after{
+    content: '';
+}
+.header ul li{
+    margin-right: 15px;
+    font-size: 19px;
+    font-weight: 600;
+    color: #666666;
+}
+.active{
+    color : #008CFF !important;
+}
+.header ul{
+    display : flex;
+    text-decoration: none;
+    list-style:none;
+}
+.header{
+    margin-bottom: 40px;
+}
+.content{
+    display: flex;
+    margin-bottom: 20px;
+}
+.nav{
+    height :55vh;
+    width : 8%;
+    border: 1px solid black;
+    margin-right: 75px;
+}
+.nav ul{
+    width : 100%;
+    display : flex;
+    flex-direction: column;
+    list-style:none;
+   
+}
+.nav ul li{
+    text-align:center;
+    font-size: 19px;
+    font-weight: 600;
+    color: #666666;
+    border: 1px solid black;
+}
+
+
+.activePage{
+    background-color: #008CFF;
+    color: white !important;
+}
+.content-text{
+    width : 20%;
+    margin-right: 20px;
+}
+
+hr{
+    position: relative;
+    left: 20px;
+    width : 55%;
+}
+.tripledot{
+    width : 46%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666666; 
+}
+.footer{
+    margin-top: 40px
+}
+.footer ul {
+    width : 46%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer ul li {
+    margin-right:10px;
+    color:  #008CFF;
+}
