@@ -1,0 +1,12 @@
+defaultPortal: BogdanChumakDev
+portals:
+  - name: BogdanChumakDev
+    portalId: 26141579
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          CPDp8sGoMBIJAA0AAAAA4A0DGIvHuwwgnpKQFiju6QwyFLbu-B2wvWl4aiFJYfTo05p09lkpOjcAAARBAAAAeAAAAAAAAAAAAAAAAAAAAAQAAMAHAP7_MTwAAAYAAABgAAAAAAAAAAAAAAAAADACQhS714yrfEDfsTIWYP7jxclepuo4O0oDZXUxUgBaAA
+        expiresAt: '2022-08-10T14:50:56.116Z'
+    personalAccessKey: >-
+      CiRldTEtOGQ0OS1hNDA5LTRhOTUtODhhZS1hMzZjMDE5ZmFkNzAQi8e7DBiekpAWKhkABeaRgpCEf08bNH_AR5rnIQogR9N2z8QxSgNldTE
